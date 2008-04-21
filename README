@@ -1,0 +1,18 @@
+Plugin Name: WordPress admin themer
+Plugin URI: http://rudd-o.com/projects/wp-admin-themer/
+Description: Themes your WP administrative interface with a 'wp-admin.css' stylesheet from your active theme
+Version: 0.1.0
+Author: Manuel Amador (Rudd-O)
+Author URI: http://rudd-o.com/
+
+Tired of the same look every time it's time to manage your WordPress blog?  With the WordPress admin themer plugin, you can change that, and not touch a single line of your WordPress code.
+
+All you have to do is drop this plugin (the PHP file named 'wp-admin-themer.php') on your plugins folder, activate the plugin, write a stylesheet for your WordPress administrative interface, and save that stylesheet in the directory of your active theme, named 'wp-admin.css'.
+
+A sample stylesheet is included in the plugin package.  This sample stylesheet needs to be modified because it sets some backgrounds based on images on my blog, so watch out, it's not a drop-in replacement.
+
+--------------------------------------------------------------------
+    Hey, you!  Yes, you!  Did you like this plugin?
+    Try my other plugins!
+    http://rudd-o.com/projects/
+--------------------------------------------------------------------
