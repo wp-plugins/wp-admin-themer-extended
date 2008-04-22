@@ -29,7 +29,8 @@ Checkout our other plugins at http://plugins.motionmill.com
 
 == Frequently Asked Questions == 
 
-= No FAQ yet =
+= No questions yet =
+Check our page on http://plugins.motionmill.com for more information
 
 == Screenshots ==
 
@@ -37,4 +38,4 @@ Checkout our other plugins at http://plugins.motionmill.com
 
 == Licence ==
 
-Good news, this plugin is free for everyone! Since it's released under the GPL, you can use it free of charge on your personal or commercial blog.
+This plugin is free for everyone! Since it's released under the GPL, you can use it free of charge on your personal or commercial blog.
