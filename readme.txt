@@ -25,7 +25,7 @@ Checkout our other plugins at http://plugins.motionmill.com
 
 1. Upload the full directory into your wp-content/plugins directory
 2. Activate the plugin at the plugin administration page
-3. Open the plugin configuration page, which is located under Options -> WP Admin Themer and verify your settings.
+3. Open the plugin configuration page, which is located under Settings -> WP Admin Themer and verify your settings.
 
 == Frequently Asked Questions == 
 
