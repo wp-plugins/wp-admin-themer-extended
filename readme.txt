@@ -19,6 +19,8 @@ Derivative work from wp-admin-themer, written by Manuel Amador (Rudd-O)
 
 The plugin will overrule all CSS files from within the plugin css directory.
 
+Checkout our other plugins at http://plugins.motionmill.com
+
 == Installation ==
 
 1. Upload the full directory into your wp-content/plugins directory
