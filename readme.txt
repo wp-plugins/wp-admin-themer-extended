@@ -2,6 +2,7 @@
 Contributors: tbelmans
 Tags: admin, theme, css, login
 Requires at least: 2.3
+Tested up to: 2.5
 Stable tag: 0.3.0
 
 This plugin will modify the layout of your admin and login pages using 3 CSS files in the plugin css directory.
