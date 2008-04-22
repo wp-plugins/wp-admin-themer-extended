@@ -9,6 +9,7 @@ This plugin will modify the layout of your admin and login pages using 3 CSS fil
 == Description ==
 
 Wp-admin-themer is a plugin that allows you to theme your WordPress admin pages and login pages.
+It allows to override the URL and ALT tag of the Wordpress logo on the login page.
 
 Derivative work from wp-admin-themer, written by Manuel Amador (Rudd-O)
 
