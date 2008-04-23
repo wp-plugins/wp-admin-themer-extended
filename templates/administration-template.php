@@ -59,6 +59,13 @@
 			<td><?php echo WPAT_PLUGIN_URI ;?><input type="text" name="mm_user_css" size="32" border="0" value="<?php echo get_option('mm_user_css'); ?>" /></td>
 		</tr>
 	</table>
+	<p></p>
+	<table border="0" cellspacing="2" cellpadding="0">
+		<tr>
+			<td valign="top"><b>Custom footer</b>:</td>
+			<td><textarea name="mm_custom_footer" cols="64" rows="8" border="0"><?php echo htmlentities(get_option('mm_custom_footer')); ?></textarea></td>
+		</tr>
+	</table>	
 	<table border="0" cellspacing="2" cellpadding="0">
 		<tr>
 			<td></td>
