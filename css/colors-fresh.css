@@ -1,3 +1,4 @@
+/* colors-fresh.css */
 a.page-numbers:hover {
 	border-color: #999;
 }
@@ -20,7 +21,7 @@ div.dashboard-widget-error {
 }
 
 div.dashboard-widget-notice {
-	background-color: #cfe1ef;
+	background-color: #F0F0F0;
 }
 
 div.dashboard-widget-submit, ul.widget-control-list div.widget-control-actions {
@@ -28,21 +29,21 @@ div.dashboard-widget-submit, ul.widget-control-list div.widget-control-actions {
 }
 
 div.ui-tabs-panel {
-	border-color: #cee1ef;
+	border-color: #E48850;
 }
 
 input.disabled, textarea.disabled {
 	background-color: #ccc;
 }
 
-#user_info a:hover, li.widget-list-control-item h4.widget-title a:hover, .submit a, #dashmenu a:hover, #footer a, #upload-menu li a.upload-tab-link, li.widget-list-control-item h4.widget-title a,
+#user_info a:hover, li.widget-list-control-item h4.widget-title a:hover, .submit a, #dashmenu a:hover, #custom_footer a, #upload-menu li a.upload-tab-link, li.widget-list-control-item h4.widget-title a,
 #dragHelper li.widget-list-control-item h4.widget-title a,
 #draghelper li.widget-list-control-item h4.widget-title a:visited, .login #backtoblog a:hover {
 	color: #fff;
 }
 
 li.widget-list-control-item, div.nav, .tablenav, .submitbox, h3.dashboard-widget-title, h3.dashboard-widget-title span, h3.dashboard-widget-title small, ul.view-switch li.current, .form-table tr, #poststuff h3, .login form {
-	background-color: #eaf3fa;
+	background-color: #F1F3F2;
 }
 
 select {
@@ -51,11 +52,11 @@ select {
 }
 
 strong .post-com-count span {
-	background-color: #2583ad;
+	background-color: ##666;
 }
 
 ul#category-tabs li.ui-tabs-selected, .button-secondary, #quicktags, #login form .submit input {
-	background-color: #cee1ef !important;
+	background-color: #E48850 !important;
 }
 
 ul#widget-list li.widget-list-item h4.widget-title {
@@ -120,7 +121,7 @@ ul.widget-control-list .sorthelper {
 }
 
 .form-table input, .form-table textarea {
-	border-color: #c6d9e9;
+	border-color: #E8EAE9;
 }
 
 .form-table td, .form-table th {
@@ -128,7 +129,7 @@ ul.widget-control-list .sorthelper {
 }
 
 .highlight {
-	background-color: #e4f2fd;
+	background-color: #D1DADC;
 	color: #d54e21;
 }
 
@@ -150,8 +151,8 @@ ul.widget-control-list .sorthelper {
 }
 
 .page-numbers.current {
-	background-color: #328ab2;
-	border-color: #328ab2;
+	background-color: #b8b0b0;
+	border-color: #b8b0b0;
 	color: #fff;
 }
 
@@ -183,9 +184,10 @@ ul.widget-control-list .sorthelper {
 }
 
 .submit input, .button, .button-secondary, #login form .submit input, div.dashboard-widget-submit input, #edit-slug-buttons a.save {
-	background-color: #e5e5e5;
-	color: #246;
-	border-color: #80b5d0;
+	background-color: #E48850;
+	color: #FBEEE6;
+	border-color: #D54E21;
+	font-weight:bold;
 }
 
 .submit input:hover, .button:hover, #edit-slug-buttons a.save:hover {
@@ -197,7 +199,7 @@ ul.widget-control-list .sorthelper {
 }
 
 .button-secondary:hover, #login form .submit input:hover {
-	border-color: #328ab2;
+	border-color: #b8b0b0;
 }
 
 .submitbox #autosave .error, ul.view-switch li.current a {
@@ -205,7 +207,7 @@ ul.widget-control-list .sorthelper {
 }
 
 .submitbox #previewview {
-	background-color: #2683ae;
+	background-color: #CCC;
 }
 
 .submitbox #previewview a, #rightnow .rbutton {
@@ -229,20 +231,20 @@ ul.widget-control-list .sorthelper {
 }
 
 .tablenav .dots {
-	background-color: #e4f2fd;
-	border-color: #e4f2fd;
+	background-color: #D1DADC;
+	border-color: #D1DADC;
 }
 
 .tablenav .next, .tablenav .prev{
-	background-color: #e4f2fd;
-	border-bottom-color: #2583ad;
-	border-color: #e4f2fd;
-	color: #2583ad;
+	background-color: #D1DADC;
+	border-bottom-color: ##666;
+	border-color: #D1DADC;
+	color: ##666;
 }
 
 .tablenav .next:hover, .tablenav .prev:hover {
 	border-bottom-color: #d54e21;
-	border-color: #e4f2fd;
+	border-color: #D1DADC;
 	color: #d54e21;
 }
 
@@ -252,7 +254,7 @@ ul.widget-control-list .sorthelper {
 }
 
 .updated a {
-	border-bottom-color: #2583ad;
+	border-bottom-color: ##666;
 }
 
 .widefat td, .widefat th, div#available-widgets-filter, ul#widget-list li.widget-list-item, .commentlist li {
@@ -265,7 +267,7 @@ ul.widget-control-list .sorthelper {
 }
 
 .widget-control-save, .widget-control-remove {
-	background-color: #cee1ef;
+	background-color: #E48850;
 	color: #246;
 }
 
@@ -275,13 +277,13 @@ ul.widget-control-list .sorthelper {
 }
 
 #adminmenu a, #submenu a, #poststuff #edButtonPreview, #poststuff #edButtonHTML, #the-comment-list p.comment-author strong a, a {
-	color: #2583ad;
+	color: ##666;
 }
 
 /* Because we don't want visited on these links */
 #adminmenu a.current, #sidemenu a.current {
 	background-color: #fff;
-	border-color: #c6d9e9;
+	border-color: #E8EAE9;
 	border-bottom-color: #fff;
 	color: #d54e21;
 }
@@ -300,8 +302,8 @@ ul.widget-control-list .sorthelper {
 }
 
 #adminmenu, div#media-upload-header {
-	background-color: #e4f2fd;
-	border-bottom-color: #c6d9e9;
+	background-color: #D1DADC;
+	border-bottom-color: #E8EAE9;
 }
 
 #currenttheme img {
@@ -321,12 +323,12 @@ input.readonly {
 }
 
 #dashmenu a.current {
-	background-color: #e4f2fd;
+	background-color: #D1DADC;
 	color: #555;
 }
 
 #dragHelper h4.widget-title, li.widget-list-control-item h4, #dragHelper li.widget-list-control-item h4 {
-	background-color: #2683ae;
+	background-color: #CCC;
 	color: #fff;
 }
 
@@ -342,7 +344,7 @@ input.readonly {
 	color: #777;
 }
 
-#footer {
+#custom_footer {
 	background: url(../images/logo-ghost.png) #464646 no-repeat 20px 10px;
 	color: #999;
 }
@@ -396,12 +398,12 @@ input.readonly {
 }
 
 #poststuff #editor-toolbar .active {
-	background-color: #cee1ef;
+	background-color: #E48850;
 	color: #333;
 }
 
 #poststuff .closed .togbox {
-	background-color: #E48850;
+	background-color: ##666;
 	background-image: url(../images/toggle-arrow.gif);
 }
 
@@ -425,13 +427,13 @@ input.readonly {
 }
 
 #rightnow a {
-	color: #448abd;
+	color: #333333;
 }
 
 #sidemenu a {
-	background-color: #e4f2fd;
-	border-bottom-color: #c6d9e9;
-	border-top-color: #e4f2fd;
+	background-color: #D1DADC;
+	border-bottom-color: #E8EAE9;
+	border-top-color: #D1DADC;
 }
 
 #tagchecklist span a {
@@ -471,7 +473,7 @@ input.readonly {
 }
 
 #upload-menu li.current {
-	border-right-color: #448abd;
+	border-right-color: #333333;
 	color: #000;
 }
 
@@ -489,7 +491,7 @@ input.readonly {
 }
 
 #wphead {
-	background-color: #e4f2fd;
+	background-color: #D1DADC;
 }
 
 #wphead, body.login {
@@ -497,16 +499,20 @@ input.readonly {
 }
 
 #wphead #viewsite a {
-	background-color: #c6d9e9;
-	color: #246;
-	border-color: #80b5d0;
+	background-color: #E48850;
+	color: #FBEEE6;
+	border-color: #D54E21;
+	font-weight:bold;
 }
 
 #wphead #viewsite a:hover {
-	border-color: #328ab2;
+	border-color: #D54E21;
 }
 
 #wphead h1, #dashmenu a.current:hover, #login form input {
+	color: #555;
+}
+#wphead h1 {
 	color: #555;
 }
 
@@ -529,7 +535,7 @@ div#media-upload-error, .file-error, abbr.required, .widget-control-remove:hover
 
 /* Containers */
 .wp_themeSkin table {
-	background: #cee1ef;
+	background: #E48850;
 }
 
 .wp_themeSkin iframe {
@@ -539,7 +545,7 @@ div#media-upload-error, .file-error, abbr.required, .widget-control-remove:hover
 /* Layout */
 .wp_themeSkin .mceStatusbar {
 	 color:#000;
-	 background-color: #eaf3fa;
+	 background-color: #F1F3F2;
 }
 
 /* Button */
@@ -641,7 +647,7 @@ div#media-upload-error, .file-error, abbr.required, .widget-control-remove:hover
 
 .wp_themeSkin .mceMenu .mceMenuItemEnabled a:hover,
 .wp_themeSkin .mceMenu .mceMenuItemActive {
-	background-color: #CEE1EF;
+	background-color: #E48850;
 }
 .wp_themeSkin td.mceMenuItemSeparator {
 	background-color: #aaa;
@@ -659,12 +665,12 @@ div#media-upload-error, .file-error, abbr.required, .widget-control-remove:hover
 
 /* pop-up */
 .clearlooks2 .mceTop .mceLeft, .clearlooks2 .mceTop .mceRight {
-	background-color: #cee1ef;
-	border-color: #c6d9e9;
+	background-color: #E48850;
+	border-color: #E8EAE9;
 }
 
 .clearlooks2 .mceFocus .mceTop .mceLeft, .clearlooks2 .mceFocus .mceTop .mceRight {
-	background-color: #2683ae;
+	background-color: #CCC;
 	border-color: #464646;
 }
 
