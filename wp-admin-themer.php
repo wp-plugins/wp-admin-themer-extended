@@ -109,9 +109,9 @@ function themer_login() {
 }
 
 function wp_custom_footer() {
-		echo '<div id="custom_footer"><p>';
+		echo '<div id="custom_footer">';
 		echo get_option('mm_custom_footer');
-		echo '</p></div>';
+		echo '</div>';
 }
 
 function update_mm_login_url() {
