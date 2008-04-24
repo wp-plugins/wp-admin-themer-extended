@@ -26,9 +26,9 @@ Checkout our other plugins at http://plugins.motionmill.com
 1. Upload the full directory into your wp-content/plugins directory
 2. Activate the plugin at the plugin administration page
 3. Open the file wp-admin-themer.php and modify check following lines : 
-	* /* Modify these variables if you have installed wp-admin-themer in another directory */
-	* define('WPAT_PLUGIN_URI', get_option('siteurl').'/wp-content/plugins/wp-admin-themer-extended/');
-	* define('WPAT_PLUGIN_PATH', $_SERVER['DOCUMENT_ROOT']  . '/wp-content/plugins/wp-admin-themer-extended');
+	/* Modify these variables if you have installed wp-admin-themer in another directory */
+	define('WPAT_PLUGIN_URI', get_option('siteurl').'/wp-content/plugins/wp-admin-themer-extended/');
+	define('WPAT_PLUGIN_PATH', $_SERVER['DOCUMENT_ROOT']  . '/wp-content/plugins/wp-admin-themer-extended');
 
 4. Open the plugin configuration page, which is located under Settings -> WP Admin Themer and verify your settings.
 
