@@ -41,8 +41,8 @@ Derivative work from bsuite, written by Casey Bisson
 // }
 
 /* Modify these variables if you have installed wp-admin-themer in another directory */
-define('WPAT_PLUGIN_URI', get_option('siteurl').'/wp-content/plugins/wp-admin-themer/');
-define('WPAT_PLUGIN_PATH', $_SERVER['DOCUMENT_ROOT']  . '/wp-content/plugins/wp-admin-themer');
+define('WPAT_PLUGIN_URI', get_option('siteurl').'/wp-content/plugins/wp-admin-themer-extended/');
+define('WPAT_PLUGIN_PATH', $_SERVER['DOCUMENT_ROOT']  . '/wp-content/plugins/wp-admin-themer-extended');
 
 /* Check to see if options already exist in the database */
 $mm_login_url = get_option('mm_login_url');
