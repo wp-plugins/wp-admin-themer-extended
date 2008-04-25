@@ -50,6 +50,7 @@ $mm_login_alt = get_option('mm_login_alt');
 $mm_login_css = get_option('mm_login_css');
 $mm_admin_css = get_option('mm_admin_css');
 $mm_user_css = get_option('mm_user_css');
+$mm_custom_header = get_option('mm_custom_header');
 $mm_custom_footer = get_option('mm_custom_footer');
 
 /* Add options if they does not already exist */
@@ -70,6 +71,9 @@ if($mm_user_css == '')
 
 if($mm_custom_footer == '') 
 	add_option('mm_custom_footer', '<p>Thank you for creating with <a href="http://wordpress.org/">WordPress</a> | <a href="http://codex.wordpress.org/">Documentation</a> | <a href="http://wordpress.org/support/forum/4">Feedback</a> | Version 2.5</p>');
+
+if($mm_custom_header == '') 
+	add_option('mm_custom_header', '');
 
 
 function wp_admin_themer_admin_menu() {
@@ -92,6 +96,9 @@ function wp_admin_themer_options() {
 	if(isset($_POST['mm_user_css']))
 		update_option("mm_user_css", ($_POST["mm_user_css"]));
 
+	if(isset($_POST['mm_custom_header']))
+		update_option("mm_custom_header", (stripslashes($_POST["mm_custom_header"])));
+		
 	if(isset($_POST['mm_custom_footer']))
 		update_option("mm_custom_footer", (stripslashes($_POST["mm_custom_footer"])));
 	
@@ -108,10 +115,13 @@ function themer_login() {
 	echo "<link rel='stylesheet' type='text/css' href='" . WPAT_PLUGIN_URI . get_option('mm_user_css') . "' />\n";
 }
 
+function wp_custom_header() {
+	if ( get_option('mm_custom_header') != '' ) 
+		echo '<div id="custom_header">' . get_option('mm_custom_header') . '</div>';
+}
+
 function wp_custom_footer() {
-		echo '<div id="custom_footer">';
-		echo get_option('mm_custom_footer');
-		echo '</div>';
+		echo '<div id="custom_footer">' . get_option('mm_custom_footer') .  '</div>';
 }
 
 function update_mm_login_url() {
@@ -126,6 +136,7 @@ function update_mm_login_alt() {
 /* Add actions and filters */
 add_action('admin_menu', 'wp_admin_themer_admin_menu');
 add_action('login_head', 'themer_login');
+add_action('admin_head', 'wp_custom_header', 11);
 add_action('admin_footer','wp_custom_footer');
 
 add_filter('admin_head', 'themer_admin');

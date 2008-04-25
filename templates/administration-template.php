@@ -15,7 +15,6 @@
 			<td>This value changes the URL for the logo on the login page.</td>
 		</tr>
 	</table>
-	<p></p>
 	<table border="0" cellspacing="2" cellpadding="0">
 		<tr>
 			<td><b>Login Page Logo ALT</b>:</td>
@@ -27,7 +26,6 @@
 			<td>This option changes the ALT tag on the logo of the login page.</td>
 		</tr>
 	</table>
-	<p></p>
 	<table border="0" cellspacing="2" cellpadding="0">
 		<tr>
 			<td><b>Login Page CSS</b>:</td>
@@ -39,7 +37,6 @@
 			<td>This is the CSS for the login page.</td>
 		</tr>
 	</table>
-	<p></p>	
 <h2>Admin Page Settings</h2>
 	<table border="0" cellspacing="2" cellpadding="0">
 		<tr>
@@ -52,18 +49,22 @@
 			<td>This is the CSS for the admin pages.</td>
 		</tr>
 	</table>
-	<p></p>
 	<table border="0" cellspacing="2" cellpadding="0">
 		<tr>
 			<td><b>User CSS</b>:</td>
 			<td><?php echo WPAT_PLUGIN_URI ;?><input type="text" name="mm_user_css" size="32" border="0" value="<?php echo get_option('mm_user_css'); ?>" /></td>
 		</tr>
 	</table>
-	<p></p>
+	<table border="0" cellspacing="2" cellpadding="0">
+		<tr>
+			<td valign="top"><b>Custom header</b>:</td>
+			<td><textarea name="mm_custom_header" cols="90" rows="8" border="0"><?php echo htmlentities(get_option('mm_custom_header')); ?></textarea></td>
+		</tr>
+	</table>
 	<table border="0" cellspacing="2" cellpadding="0">
 		<tr>
 			<td valign="top"><b>Custom footer</b>:</td>
-			<td><textarea name="mm_custom_footer" cols="64" rows="8" border="0"><?php echo htmlentities(get_option('mm_custom_footer')); ?></textarea></td>
+			<td><textarea name="mm_custom_footer" cols="90" rows="8" border="0"><?php echo htmlentities(get_option('mm_custom_footer')); ?></textarea></td>
 		</tr>
 	</table>	
 	<table border="0" cellspacing="2" cellpadding="0">
@@ -71,7 +72,6 @@
 			<td></td>
 		</tr>
 	</table>
-	<p></p>
 		<p><input type="submit" name="submitButtonName" value="Update" border="0" /></p>
 </form>
 </div>

@@ -3,6 +3,10 @@
 	display:none;
 }
 
+#custom_header {
+	background-color:#464646;
+}
+
 #plugins .name {
 	font-weight: bold;
 }
