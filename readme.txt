@@ -3,7 +3,7 @@ Contributors: tbelmans
 Tags: admin, theme, css, login
 Requires at least: 2.3
 Tested up to: 2.5
-Stable tag: 0.3.0
+Stable tag: 0.4.0
 
 This plugin will modify the layout of your admin and login pages using 3 CSS files in the plugin css directory.
 
@@ -18,6 +18,7 @@ Derivative work from wp-admin-themer, written by Manuel Amador (Rudd-O)
     * http://rudd-o.com
 
 The plugin will overrule all CSS files from within the plugin css directory.
+Via the admin interface you can add custom header and footer to your admin pages.
 
 Checkout our other plugins at http://plugins.motionmill.com
 
