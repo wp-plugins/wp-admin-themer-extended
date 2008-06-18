@@ -3,7 +3,7 @@
 Plugin Name: WordPress Admin and Login Themer
 Plugin URI: http://plugins.motionmill.com/wp-admin-themer
 Description: Themes your WP administrative interface and login page with 3 stylesheets from within the CSS directory of this plugin
-Version: 0.3.0
+Version: 0.4.0
 Author: Tom Belmans (MotionMill)
 Author URI: http://www.motionmill.com/
 */
