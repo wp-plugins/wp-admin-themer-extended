@@ -11,7 +11,7 @@ body	{
 body > #upload-menu {
 	border-bottom-color: #fff;
 }
-
+div#custom_header{background-color:#333333;}
 div#current-widgets, #postcustomstuff table, #your-profile fieldset, a.page-numbers, #rightnow, div.dashboard-widget, .widefat {
 	border-color: #ccc;
 }
@@ -36,7 +36,7 @@ input.disabled, textarea.disabled {
 	background-color: #ccc;
 }
 
-#user_info a:hover, li.widget-list-control-item h4.widget-title a:hover, .submit a, #dashmenu a:hover, #custom_footer a, #upload-menu li a.upload-tab-link, li.widget-list-control-item h4.widget-title a,
+#mm_user_info a:hover, li.widget-list-control-item h4.widget-title a:hover, .submit a, #dashmenu a:hover, #custom_footer a, #upload-menu li a.upload-tab-link, li.widget-list-control-item h4.widget-title a,
 #dragHelper li.widget-list-control-item h4.widget-title a,
 #draghelper li.widget-list-control-item h4.widget-title a:visited, .login #backtoblog a:hover {
 	color: #fff;
@@ -133,7 +133,7 @@ ul.widget-control-list .sorthelper {
 	color: #d54e21;
 }
 
-#user_info, .howto, .nonessential, #dashmenu a, #sidemenu, #edit-slug-box, .form-input-tip, #dashboard_primary span.rss-date, .subsubsub, #dashboard_secondary div.dashboard-widget-content ul li a cite {
+#mm_user_info, #user_info, .howto, .nonessential, #dashmenu a, #sidemenu, #edit-slug-box, .form-input-tip, #dashboard_primary span.rss-date, .subsubsub, #dashboard_secondary div.dashboard-widget-content ul li a cite {
 	color: #999;
 }
 
@@ -403,7 +403,7 @@ input.readonly {
 }
 
 #poststuff .closed .togbox {
-	background-color: ##666;
+	background-color: #E48850;
 	background-image: url(../images/toggle-arrow.gif);
 }
 
@@ -448,7 +448,7 @@ input.readonly {
 	border-bottom-color: #ababab;
 	color: #666;
 }
-
+#update-nag{display:none;}
 #update-nag, .plugin-update {
 	background-color: #fffeeb;
 	border-bottom-color: #ccc;
@@ -486,7 +486,7 @@ input.readonly {
 	border-top-color: #247fab;
 }
 
-.login #backtoblog a, .curtime, #user_info a {
+.login #backtoblog a, .curtime, #user_info a, #mm_user_info a  {
 	color: #ccc;
 }
 

@@ -3,10 +3,6 @@
 	display:none;
 }
 
-#custom_header {
-	background-color:#464646;
-}
-
 #plugins .name {
 	font-weight: bold;
 }
@@ -558,15 +554,26 @@ a.view-comment-post-link {
 }
 
 /* Admin Header */
+#custom_header {
+	background-color:#333333;
+	height:34px;
+	padding:11px;
+}
 
 #user_info {
 	position: absolute;
 	right: 15px;
-	top: 11px;
+	top: -33px;
 	font-size: 11px;
+	display:none;
 }
-
-#user_info p {
+#mm_user_info {
+	font-size:11px;
+	position:absolute;
+	right:21px;
+	top:22px;
+}
+#mm_user_info p {
 	margin: 0;
 	padding: 0;
 }

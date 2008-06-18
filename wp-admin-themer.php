@@ -70,10 +70,11 @@ if($mm_user_css == '')
 	add_option('mm_user_css', 'css/colors-fresh.css');
 
 if($mm_custom_footer == '') 
-	add_option('mm_custom_footer', '<p>Thank you for creating with <a href="http://wordpress.org/">WordPress</a> | <a href="http://codex.wordpress.org/">Documentation</a> | <a href="http://wordpress.org/support/forum/4">Feedback</a> | Version 2.5</p>');
+	add_option('mm_custom_footer', '<p>Powered by <a href="http://motionmill.com/">Motionmill</a></p>');
 
 if($mm_custom_header == '') 
-	add_option('mm_custom_header', '');
+	add_option('mm_custom_header', '<a href="http://www.motionmill.com" target="_blank" title="motionmill cms & crm"><img src="/wp-content/plugins/wp-admin-themer-extended/css/images/admin_logo.jpg"  alt="motionmill" /></a>
+<div id="mm_user_info"><p>Hallo, <a href="profile.php">%%nickname%%</a>! | <a title="Uitloggen" href="/wp-login.php?action=logout">Uitloggen</a></p></div>');
 
 
 function wp_admin_themer_admin_menu() {
@@ -117,7 +118,9 @@ function themer_login() {
 
 function wp_custom_header() {
 	if ( get_option('mm_custom_header') != '' ) 
-		echo '<div id="custom_header">' . get_option('mm_custom_header') . '</div>';
+
+		$tmpUser = wp_get_current_user();
+		echo '<div id="custom_header">' . str_replace ('%%nickname%%', $tmpUser->display_name, get_option('mm_custom_header')) . '</div>';
 }
 
 function wp_custom_footer() {
