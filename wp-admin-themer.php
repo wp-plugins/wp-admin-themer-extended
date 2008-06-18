@@ -55,10 +55,10 @@ $mm_custom_footer = get_option('mm_custom_footer');
 
 /* Add options if they does not already exist */
 if($mm_login_url == '')
-	add_option('mm_login_url', 'http://www.wordpress.org');
+	add_option('mm_login_url', 'http://www.motionmill.com');
 
 if($mm_login_alt == '') 
-	add_option('mm_login_alt', 'Powered by WordPress');
+	add_option('mm_login_alt', 'Powered by MotionMill');
 
 if($mm_login_css == '') 
 	add_option('mm_login_css', 'css/login.css');
