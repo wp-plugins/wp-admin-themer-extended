@@ -22,6 +22,7 @@
 				<br />This is the CSS for the login page.</td>
 		</tr>
     </table>
+<p class="submit"><input type="submit" name="submitButtonName" value="Save settings" border="0" /></p>
 <br /><br />
 <h2>Admin Page Settings</h2>
 	<table class="form-table">
