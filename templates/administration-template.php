@@ -1,6 +1,6 @@
 <!-- Template for the administration interface in Wordpress -->
 <div class="wrap">
-<form method="post">	
+<form method="post">
 <h2>Login Page Settings</h2>
 	<table class="form-table">
 		<tr>
@@ -44,6 +44,6 @@
 			<td><textarea name="mm_custom_footer" cols="90" rows="8" border="0"><?php echo htmlentities(get_option('mm_custom_footer')); ?></textarea></td>
 		</tr>
 	</table>	
-	<p><input type="submit" name="submitButtonName" value="Update" border="0" /></p>
+	<p class="submit"><input type="submit" name="submitButtonName" value="Save settings" border="0" /></p>
 </form>
 </div>
